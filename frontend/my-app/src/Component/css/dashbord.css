@@ -1,0 +1,116 @@
+.box{
+    border-radius: 50%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    box-shadow: 3px 7px 5px rosybrown;
+    transition: all 3s;
+    text-shadow: 0 10px 7px rgba(0,0,0,0.4),0 -2px 1px #fff;
+}
+
+.box:hover{
+    background:linear-gradient(45deg, #fd0000 , rgb(251, 255, 0),aqua);
+    box-shadow: 3px 3px 15px rgb(29, 20, 20);
+    border-radius: 20px;
+}
+
+#maindashbord{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 50px;
+    font-family: 'Wendy One', sans-serif;
+    font-weight: bolder;
+    cursor: pointer;
+    
+}
+
+#subjectdash{
+    width: 175px;
+    height: 175px;
+    margin: 10px;
+    animation: anim1 7s infinite; /* Standard syntax */
+    -webkit-animation: anim1 7s infinite; /* For Safari and older Chrome */
+  
+}
+@keyframes anim1 { /* Standard syntax */
+  20% {
+    background:linear-gradient(45deg, #fd0000 , rgb(255,0,255),aqua);
+    
+    border-radius: 50px;
+  }
+
+  40% {
+    background-color: rgb(27, 77, 241);
+    
+    border-radius: 5px; /* or 0px */
+  }
+
+  60% {
+    background-color: yellow;
+    
+    border-radius: 50px;
+  }
+
+  80% {
+    background-color: green;
+    
+    border-radius: 0; /* or 0px */
+  }
+}
+
+/* Optional: Add vendor prefixes for keyframes too, for maximum compatibility */
+@-webkit-keyframes anim1 {
+  
+  20% {
+    background:linear-gradient(45deg, #fd0000 , rgb(255,0,255),aqua);
+    
+    border-radius: 50px;
+  }
+
+  40% {
+    background-color: rgb(106, 26, 211);
+    
+    border-radius: 0;
+  }
+
+  60% {
+    background-color: yellow;
+    
+    border-radius: 50px;
+  }
+
+  80% {
+    background-color: green;
+    
+    border-radius: 0;
+  }
+}
+#passworddash{
+    width: 211px;
+    height: 211px;
+    margin: 10px;
+    background:linear-gradient(20deg, #f7ac21 ,rgb(236, 200, 146),rgb(248, 248, 241));
+    
+}
+#attendancedash{
+    width: 240px;
+    height: 240px;
+    margin: 10px;
+    background:linear-gradient(20deg, #b452ec ,rgb(210, 177, 233),rgb(248, 248, 241));
+}
+#logoutdash{
+    width: 211px;
+    height: 211px;
+    margin: 10px;
+    background:linear-gradient(20deg, #f7ac21 ,rgb(236, 200, 146),rgb(248, 248, 241));}
+#accountdash{
+    width: 175px;
+    margin: 10px;
+    height: 175px;
+    animation: anim1 7s infinite; 
+    -webkit-animation: anim1 7s infinite; 
+}

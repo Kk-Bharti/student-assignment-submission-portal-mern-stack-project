@@ -1,0 +1,178 @@
+
+
+
+#body{
+
+  background-image: url(background.png);
+  background-position: center;
+  
+}
+
+#loginpage{
+      background: transparent;
+      
+      background-color: #bbc0f3;
+}
+
+#main{
+
+border: 1px solid black;
+border-radius: 10px;
+}
+
+
+.but{
+  height: 25px;
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border:0px;
+  border-radius: 10px;
+  box-shadow: 2px 3px 5px;
+  font-weight: bolder;
+  text-shadow: 0 4px 10px rgba(0,0,0,0.4),0 -3px 1px #fff;
+  background-color: aqua;
+  color: rgb(10, 9, 9);
+  transition: padding 1s , background-color 2s ;
+}
+
+.but:hover{
+
+       background-color: rgb(22, 255, 22);
+       
+}
+
+
+#logo{
+  width: 120px ;
+  border-radius: 50px;
+  margin-left: 10px;
+  
+}
+
+#nav{
+  
+   background-image: url('./ailogo.jpeg');
+   background-position: 0% 40% ;
+    border-radius: 10px 0px 10px 50px;
+    box-shadow: 3px 5px 10px;
+    margin-bottom: 5px;
+    position:sticky;
+    top: 0;
+    
+  }
+
+  #login{
+     width: 100%;
+     
+  }
+
+
+/*-------------------------------Registration form---------------------  */
+
+
+
+
+
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.open-modal-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-container {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-group button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.close-modal-button {
+  margin-top: 10px;
+  padding: 5px 15px;
+  background-color: #d9534f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#carousa{
+  box-shadow:   3px 10px 50px;
+  backdrop-filter: blur(80px);
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* -------------------About page  ------------------------------*/
+
+.about-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+/*--------------------------login page------------------------------------------*/
+
+
+/* LoginPage.css */
+/* body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #6b73ff, #000dff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+} */
+
